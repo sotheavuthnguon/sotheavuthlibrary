@@ -45,7 +45,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.sotheavuthnguon'
+                groupId = 'com.sotheavuthnguon.sotheavuthlibrary'
                 artifactId = 'sotheavuthlibrary'
                 version = '1.0.0'
             }
